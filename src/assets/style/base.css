@@ -1,0 +1,124 @@
+/* base.css */
+@font-face {
+    font-family: 'Minecraft';
+    src: url('@/assets/类像素字体_俐方体11号.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 全局样式重置 */
+* {
+    font-family: 'Minecraft';
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体和颜色 */
+body {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+}
+/* 设置标题样式 */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.875em;
+}
+
+/* 设置段落样式 */
+p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* 设置链接样式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* 设置按钮样式 */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 设置表单元素样式 */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* 设置列表样式 */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
